@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos de Perguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz do Amor</h1>
+        <div id="quiz-container">
+            <!-- As perguntas serão carregadas aqui -->
+        </div>
+        <button id="next-btn" class="option" onclick="nextQuestion()" style="display: none;">Próxima</button>
+        <div id="result" style="display: none;">
+            <p id="score"></p>
+            <p id="correct-answers"></p>
+            <p id="wrong-answers"></p>
+        </div>
+        <a href="index.html" class="option">Voltar</a>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
